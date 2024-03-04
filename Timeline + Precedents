@@ -1,0 +1,72 @@
+Google Pixel Research Timeline
+
+Week 1 (Due March 4): 
+- Creating Timeline
+- Reading on WebJack and Previous Work done on utilizing audio jacks for microcontroller use (mostly with Arduino). Watch and thoroughly understand the data being processed by the Google Pixel. 
+- Test using Arduino to utilize ATTiny85.
+- Consider different applications/benefits or connecting the ATTiny85 with a repurposed phone.
+
+Week 2 (Due March 11):
+- Learn a little C++ (well versed with C so should not be so hard)
+- Do additional research on the ATTiny85, how it works from a logic perspective and push to see the capabilities of ATTiny85 without Arduino. 
+Also look at other microntrollers that are small and cheap and may have a chance to work with audio jacks. If there are, bring it up to Professor Oliveira ASAP.
+- Do additional research on Google Pixel 3 audio jack, but now exploring why it works for interfacing with Arduinos BUT NOT FOR ATTiny85. (Look through SoftModem GitHub code)
+What piece is missing/preventing the process of reading and writing data to Arduino to happen with a cheaper microcontroller. 
+Can this be fixed or avoided using code or additional cheap electronics to simulate the process with Arduino and audio Jack
+- https://github.com/arms22/SoftModem/issues/5 (forum for trying to connect ATTiny with audio jack).
+
+Week 3 (Due March 18):
+- Continue Tests with ATTiny85, which could include testing cheap options to replace an Arduino in Webjack.
+- https://github.com/arms22/SoftModem/issues/5 (forum for trying to connect ATTiny with audio jack).
+- Find exact differences between Timer0 and Timer1 for ATTiny, why connection to Timer0 has been particularly problematic.
+- Look into way to utilize Timer1 instead of Timer0
+
+Week 4 (Due March 25):
+- Searching through the code from SoftModem and finding ways to account for the simplicity of ATTiny85. (for example, ATTiny85 has no TX and RX pins that Arduino has).
+- Consider whether code changes/lack of Arduino may result in ineffiencies in the data.
+
+Week 5 (Due April 1):
+- Extracting the code from SoftModem and finding ways to account for the simplicity of ATTiny85. (for example, ATTiny85 has no TX and RX pins that Arduino has).
+- ADC multiplexer possible solution (has other downsides though)
+- Continue to look into Timers, find online resources that deal with selection of timers.
+- https://github.com/arms22/SoftModem/issues/5 (forum for trying to connect ATTiny with audio jack).
+
+Week 6 (Due April 8):
+- Hopefully undergo ADC mux solution
+- continue the rest of the bullets from Week 5.
+
+Week 7 (Due April 15):
+- SoftModem code development
+- Continue to look into Timers, find online resources that deal with selection of timers.
+
+Week 8 (Due April 22):
+- Ideally by this date, I am able to say I found a legitimate solution to create effective communication between ATTiny85 and the Google Pixel 3 audio jack.
+
+Week 9 (Due April 29):
+- Consider some different ways to apply new communication for sensor use. And begin to implement said applications
+
+Week 10 (Due May 6):
+- Finish implementing 1-2 different sensor/data applications
+
+
+
+Precedents:
+
+forums for trying to connect ATTiny with audio jack
+- https://github.com/arms22/SoftModem/issues/5
+- https://github.com/publiclab/webjack/issues/17
+
+Webjack (a JavaScript transmitter and receiver using SoftModem library)
+- https://github.com/publiclab/webjack
+
+SoftModem (a wired, low-cost and platform independent solution for communication between an Arduino and mobile phones.)
+It uses the phone's audio jack and Bell 202 modem-like FSK encoding with up to 1225 bit/s. Check out this blog post.
+- https://github.com/arms22/SoftModem
+
+HiJack (use the headphone jack for two-way data communication with an iPhone and also to power small electronic circuits)
+- https://arstechnica.com/gadgets/2011/01/project-hijack-uses-iphone-audio-jack-to-make-cheap-sensors/
+
+
+
+
+
