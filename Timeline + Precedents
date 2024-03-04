@@ -2,8 +2,8 @@ Google Pixel Research Timeline
 
 Week 1 (Due March 4): 
 - Creating Timeline
+- Learn a little C++ (well versed with C so should not be so hard)
 - Reading on WebJack and Previous Work done on utilizing audio jacks for microcontroller use (mostly with Arduino). Watch and thoroughly understand the data being processed by the Google Pixel. 
-- Test using Arduino to utilize ATTiny85.
 - Consider different applications/benefits or connecting the ATTiny85 with a repurposed phone.
 
 Week 2 (Due March 11):
@@ -50,7 +50,7 @@ Week 10 (Due May 6):
 
 
 
-Precedents:
+Precedents:  
 
 forums for trying to connect ATTiny with audio jack
 - https://github.com/arms22/SoftModem/issues/5
