@@ -8,6 +8,7 @@ Week 1 (Due March 4):
 
 Week 2 (Due March 11):
 - Learn a little C++ (well versed with C so should not be so hard)
+- Test ATTiny85 using additional Arduino board
 - Do additional research on the ATTiny85, how it works from a logic perspective and push to see the capabilities of ATTiny85 without Arduino. 
 Also look at other microntrollers that are small and cheap and may have a chance to work with audio jacks. If there are, bring it up to Professor Oliveira ASAP.
 - Do additional research on Google Pixel 3 audio jack, but now exploring why it works for interfacing with Arduinos BUT NOT FOR ATTiny85. (Look through SoftModem GitHub code)
