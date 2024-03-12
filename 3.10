@@ -1,0 +1,11 @@
+- ATTiny84A can also be connected with an Arduino Uno for programming using Ardunio ISP
+- Issues actually connecting because of using Arduino Zero instead of Arduino Uno.
+  - An interesting topic could also go into how to connect the ATTiny to other non Arduino boards.
+
+- I managed to get the library sending on the ATtiny with Timer0. The problem with receiving is, that Timer0 uses the same pins as the analog comparator.
+
+"A solution could be the ADC multiplexer, which allows to replace AIN1 with an arbitrary ADC input pin. The downside of this solution is, that none of the other ADC pins can be used then, as the ADC has to be disabled.
+It would be perfect if Timer1 can be used instead of Timer0. But I did not have the time yet to look closely at the differences between the timers." - from creator of SoftModem
+
+- Addressing the first part, the ATTiny85 only has 1 output pin and 3 ADC input pins, the concern by the creator of SoftModem is that there would be no additional pins that can be used due to multiplexers using 3 digital pins 
+  
