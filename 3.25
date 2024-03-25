@@ -1,0 +1,25 @@
+3.25
+
+- I picked up the AVR Tiny Programmer from Professor and successfully got to test the ATTiny85 with a button, potentiometer, and LED. This tested the analog/digital I/O pins as well as PWM functionality. 
+I recorded a video of my circuit and the code working using Arduino.
+
+- Found a github that talks about being able to choose between timer0 and timer1. Whatever timer is able to be read, the C++ file switches to either of the timers to get necessary data. 
+The github is for using ATTiny85 to control a servo. 
+
+- I took a break for spring break so I did not go super in depth into the github, but I did look at one of the C++ files and found this:
+
+#ifdef USE_TIMER0
+    #define TCNTn   TCNT0
+    #define OCRnx   OCR0A
+    #define OCFnx   OCF0A
+    #define OCIEnx  OCIE0A
+#endif
+
+#ifdef USE_TIMER1
+    #define TCNTn   TCNT1
+    #define OCRnx   OCR1A
+    #define OCFnx   OCF1A
+    #define OCIEnx  OCIE1A
+#endif
+
+- as in, if defined, use that timer and define the additional bits.
