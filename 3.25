@@ -23,3 +23,6 @@ The github is for using ATTiny85 to control a servo.
 #endif
 
 - as in, if defined, use that timer and define the additional bits.
+
+- get Arduino Uno, and get working with SoftModem circuit/library
+test timer pins (PWM).
