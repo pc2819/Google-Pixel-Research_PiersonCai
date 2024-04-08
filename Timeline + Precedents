@@ -36,20 +36,25 @@ Week 6 (Due April 8):
 - Hopefully undergo ADC mux solution
 - continue the rest of the bullets from Week 5.
 
+
+
+REVISED FINAL TIMELINE
+
 Week 7 (Due April 15):
-- SoftModem code development
+- Have proof of Webjack/Softmodem working with Arduino Uno first.
+- Have an additional circuit of trying to interface with ATTiny85
+- Have some kind of attempt of sending data to ATTiny85 from computer.
 - Continue to look into Timers, find online resources that deal with selection of timers.
 
 Week 8 (Due April 22):
-- Ideally by this date, I am able to say I found a legitimate solution to create effective communication between ATTiny85 and the Google Pixel 3 audio jack.
+- Continue with attempts of sending data to ATTiny85 from computer but especially with the Google Pixel 3.
+- If that works, attempt to see if the 85 can use a pin to send some kind of data back to the phone or computer.
 
 Week 9 (Due April 29):
 - FINAL PRESENTATION
+- Have all documentation done by this day.
 - Consider some different ways to apply new communication for sensor use. And begin to implement said applications
 
-Week 10 (Due May 6):
-- FINAL DOCUMENTATION
-- Finish implementing 1-2 different sensor/data applications
 
 
 
