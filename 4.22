@@ -1,0 +1,21 @@
+4.22
+
+
+Things that Do Work:
+
+- AVR Bootlander with LED
+- SoftModem circuit with receiving data from Google Pixel
+- No longer errors that occur in Arduino code when uploading using programmer
+
+
+However, it seems like I changed everything to Timer0, however there seems to be content from Ryan Meiser the creator of SoftModem that seems to sugges that I need to change something in order to use Timer1
+on the ATTiny. 
+- I am not exactly sure how to do this. 
+
+- For some reason error occurs when using Pin 2 of Tiny85 for LED.
+
+
+1 hour later...
+
+- The small LED on the ATTiny Bootloader does blink when I send audio data from the Google Pixel. It is clear the Tiny does get something from the Pixel. However, the LED that I define to be connected to a pin does not work.
+- This works for both FSK Serial Generator and singular audio clip.
