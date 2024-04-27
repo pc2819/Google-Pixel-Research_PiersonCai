@@ -1,7 +1,7 @@
 #include "SoftModem.h"
 
-#SoftModem code revised for ATTiny85
-#ATTiny85 uses Timer0 as opposed to Timer2 used by ATMEGA328P and described in SoftModem github
+//SoftModem code revised for ATTiny85
+//ATTiny85 uses Timer0 as opposed to Timer2 used by ATMEGA328P and described in SoftModem github
 
 #define TX_PIN  (3)
 #define RX_PIN1 (0)  // AIN0 for ATTiny85
